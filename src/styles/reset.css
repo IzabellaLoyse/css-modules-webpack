@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #fafafa;
+  background-color: var(--color-main);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 100%;
   line-height: 1.5rem;

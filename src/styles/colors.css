@@ -1,5 +1,6 @@
 :root {
-  --color-primary: #ffffff;
-  --color-secondary: #00ff00;
-  --color-tertiary: #0000ff;
+  --color-primary: rgb(255, 255, 255);
+  --color-secondary: rgb(26, 24, 24);
+  --color-main: rgb(250, 250, 250);
+  --shadow-card: rgba(0, 0, 0, 0.1);
 }

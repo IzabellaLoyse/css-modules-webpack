@@ -1,3 +1,30 @@
-.cardPerson {
-  composes: cardUser from './card-common.css';
+.cardIcon {
+  align-items: center;
+  background-color: var(--color-primary);
+  border-radius: 4px;
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 3.2rem;
+}
+
+.cardDots {
+  bottom: 16px;
+  display: flex;
+  height: 0.5rem;
+  justify-content: space-between;
+  left: calc((100% - 2.75rem) / 2);
+  position: absolute;
+  width: 2.75rem;
+}
+
+.cardDots span {
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  display: block;
+  height: 0.5rem;
+  width: 0.5rem;
 }

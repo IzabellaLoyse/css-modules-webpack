@@ -58,3 +58,11 @@
   box-sizing: border-box;
   padding: 0.25rem;
 }
+
+
+.photoContainer {
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}

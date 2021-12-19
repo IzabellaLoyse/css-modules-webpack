@@ -3,7 +3,7 @@
 :global(.card) {
   background-color: var(--color-primary);
   border-radius: 16px;
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 4px 8px var(--shadow-card);
   display: flex;
   flex-direction: column;
   margin-right: 2rem;
@@ -21,5 +21,5 @@
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
-  color: rgb(26, 24, 24);
+  color: var(--color-secondary);
 }
