@@ -1,1 +1,22 @@
-@import './reset.css';
+.cardIcon {
+  align-items: center;
+  background-color: var(--color-primary);
+  border-radius: 4px;
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 3.2rem;
+}
+
+.cardPlay {
+  display: block;
+  height: 2.875rem;
+  left: calc((100% - 2.875rem) / 2);
+  opacity: 0.5;
+  position: absolute;
+  top: calc((100% - 2.875rem) / 2);
+  width: 2.875rem;
+}
