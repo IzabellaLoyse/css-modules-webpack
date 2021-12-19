@@ -37,14 +37,15 @@ module.exports = {
           {
             loader: 'style-loader',
             options: {
+              esModule: false,
               injectType: 'singletonStyleTag',
             },
           },
           {
             loader: 'css-loader',
             options: {
+              esModule: false,
               modules: {
-                namedExport: true,
                 localIdentName: '[name]__[local]--[hash:base64:5]',
               },
             },
