@@ -61,7 +61,6 @@ npm dev
 
 ```
 yarn dev
-
 ```
 
 ## 💻 Tecnologias utilizadas
@@ -70,4 +69,4 @@ yarn dev
 - [HyperScript](https://github.com/hyperhype/hyperscript)
 - [Webpack](https://webpack.js.org/)
 - [CSS Modules](https://github.com/css-modules/css-modules)
-- HTML
+- HTML5
