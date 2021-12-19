@@ -8,9 +8,9 @@
 }
 
 .cardBody {
+  box-sizing: border-box;
   padding: 0.5rem 1rem 1rem 1rem;
   width: 100%;
-  box-sizing: border-box;
 }
 
 .cardTitle {
@@ -19,17 +19,17 @@
 }
 
 .cardHeader {
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
 }
 
 .cardUser {
-  width: calc(100% - 8rem);
+  align-items: center;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  width: calc(100% - 8rem);
 }
 
 .cardUser img {
@@ -37,28 +37,27 @@
 }
 
 .cardAvatar {
-  width: 2rem;
-  height: 2rem;
   border-radius: 50%;
   display: block;
+  height: 2rem;
+  width: 2rem;
 }
 
 .cardActionIcons {
-  width: 7.5rem;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 7.5rem;
 }
 
 .cardActionIcons img {
-  width: 1.5rem;
-  height: 1.5rem;
-  display: block;
   box-sizing: border-box;
+  display: block;
+  height: 1.5rem;
   padding: 0.2rem;
+  width: 1.5rem;
 }
-
 
 .photoContainer {
   display: table;

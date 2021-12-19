@@ -1,10 +1,10 @@
 import h from 'hyperscript';
 import helpers from 'hyperscript-helpers';
-import CardCarousel from './CardCarousel';
-import CardVideo from './CardVideo';
-import CardInfo from './CardInfo';
-import CardPhoto from './CardPhoto';
-import '../styles/main-global.css';
+import CardCarousel from '../card/CardCarousel';
+import CardVideo from '../card/CardVideo';
+import CardInfo from '../card/CardInfo';
+import CardPhoto from '../card/CardPhoto';
+import '../../styles/main/main-global.css';
 
 const { main } = helpers(h);
 

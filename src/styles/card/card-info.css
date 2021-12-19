@@ -1,0 +1,67 @@
+.cardInfo {
+  align-items: center;
+  display: flex;
+  height: auto;
+  width: 13.125rem;
+}
+
+.iconContainer {
+  align-items: center;
+  background-color: var(--color-tertiary);
+  border-radius: 50%;
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+  margin: 1rem;
+  position: relative;
+  position: relative;
+  width: 5rem;
+}
+
+.iconContainer span {
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+  color: var(--color-primary);
+  display: block;
+  font-size: 0.875rem;
+  height: 1.5rem;
+  position: absolute;
+  right: 14px;
+  text-align: center;
+  top: 12px;
+  width: 1.5rem;
+}
+
+.notificationIcon {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.cardText {
+  text-align: center;
+  width: 100%;
+}
+
+.cardText h3 {
+  color: var(--color-secondary);
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.cardText p {
+  color: var(--color-secondary);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.actionButton {
+  background-color: var(--color-secondary);
+  border-radius: 4px;
+  border: none;
+  color: var(--color-primary);
+  font-size: 0.875rem;
+  height: 2.125rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}

@@ -1,13 +1,13 @@
 import h from 'hyperscript';
 import helpers from 'hyperscript-helpers';
-import '../styles/card/card-global.css';
-import common from '../styles/card/card-common.css';
-import carousel from '../styles/card/card-carousel.css';
-import firstAvatar from '../assets/images/photo-profile.jpeg';
-import iconLike from '../assets/icons/like.png';
-import iconComment from '../assets/icons/comment.png';
-import iconShare from '../assets/icons/share.png';
-import iconGallery from '../assets/icons/gallery.png';
+import '../../styles/card/card-global.css';
+import common from '../../styles/card/card-common.css';
+import carousel from '../../styles/card/card-carousel.css';
+import firstAvatar from '../../assets/images/photo-profile.jpeg';
+import iconLike from '../../assets/icons/like.png';
+import iconComment from '../../assets/icons/comment.png';
+import iconShare from '../../assets/icons/share.png';
+import iconGallery from '../../assets/icons/gallery.png';
 
 const {
   section, div, img, h3, p,
