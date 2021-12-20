@@ -8,8 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Izabella Loyse",
-  "license": "ISC",
+  "author": "Izabella Loyse Cândido",
+  "url": "https://github.com/IzabellaLoyse/css-modules-webpack",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
